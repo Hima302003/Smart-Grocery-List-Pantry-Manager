@@ -39,14 +39,12 @@ Ensure you have the following installed:
    git clone https://github.com/your-repo/smart-grocery-list.git
 
 2. Navigate into the project directory:  
-  ```sh
-  cd smart-grocery-list
-
-3. Build the project using Maven:
    ```sh
+   cd smart-grocery-list
+ 
  mvn clean install
-4. Run the application:
-   ```sh
+
+ Run the application:
  mvn spring-boot:run
 
 ## API Endpoints
