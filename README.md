@@ -42,13 +42,14 @@ Ensure you have the following installed:
    ```sh
    cd smart-grocery-list
  
- 3. Build the project using Maven:
+  3. Build the project using Maven:
    ```sh
    mvn clean install
 
-
- Run the application:
+4. Run the application:
+  sh
  mvn spring-boot:run
+
 
 ## API Endpoints
 Grocery List APIs:
