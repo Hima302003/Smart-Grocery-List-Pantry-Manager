@@ -22,16 +22,22 @@ Smart Grocery List & Pantry Manager is an advanced REST API designed to simplify
 - **JUnit & Mockito** for unit testing.
 - **Git** for version control.
 
-# Setup Instructions
-## Prerequisites
+## Setup Instructions
+
+### Prerequisites
+
 Ensure you have the following installed:
+
 - Java 17 or higher
 - Maven 3.6+
 - Git
 
-## Installation
--Clone the repository:
- git clone https://github.com/your-repo/smart-grocery-list.git
+### Installation
+
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-repo/smart-grocery-list.git
+
 -Navigate into the project directory:
  cd smart-grocery-list
 -Build the project using Maven:
