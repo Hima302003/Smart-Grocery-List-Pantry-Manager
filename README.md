@@ -46,48 +46,13 @@ Ensure you have the following installed:
    ```sh
    mvn clean install
 
-
-
-And for point **4**:
-
-```markdown
 4. Run the application:  
    ```sh
    mvn spring-boot:run
 
 
 
-## API Endpoints
-Grocery List APIs:
--Create a grocery list:
-POST /grocery-lists
--Get a grocery list:
-GET /grocery-lists/{listId}
 
-Pantry Management APIs
--Add pantry item:
-POST /pantry-items
--Get pantry items:
-GET /pantry-items/{userId}
-
- Alerts & Recommendations
--Get pantry alerts:
-GET /pantry-alerts/{userId}
--Get shopping recommendations:
-GET /recommendations/{userId}
-
-## Contribution Guidelines
--Use feature branches (e.g., feature/user-management).
--Submit pull requests for code review.
--Write unit tests for new functionality.
--Keep code well-documented.
-
-## Testing
-Run unit tests with:
-mvn test
-
-# License
-This project is licensed under the MIT License.
 
 
 
