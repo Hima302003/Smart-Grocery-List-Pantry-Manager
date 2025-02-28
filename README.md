@@ -43,12 +43,10 @@ Ensure you have the following installed:
    cd smart-grocery-list
  
   3. Build the project using Maven:
-   ```sh
    mvn clean install
 
 4. Run the application:
-  sh
- mvn spring-boot:run
+   mvn spring-boot:run
 
 
 ## API Endpoints
