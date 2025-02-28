@@ -1,88 +1,88 @@
 # Smart Grocery List & Pantry Manager
 
-## Overview
+# Overview
 
 Smart Grocery List & Pantry Manager is an advanced REST API designed to simplify grocery shopping and pantry inventory management.
 
-## Features
+# Features
 
-Create and Manage Grocery Lists: Users can create, edit, and delete grocery lists.
-Track Pantry Stock: Monitor stock levels, add, update, and remove pantry items.
-Receive Low-Stock Alerts: Notifications for items running low in the pantry.
-Optimize Shopping Recommendations: Purchase suggestions based on frequently bought items.
-Track Expiry Dates: Helps users avoid waste by tracking item expiration dates.
+-Create and Manage Grocery Lists: Users can create, edit, and delete grocery lists.
+-Track Pantry Stock: Monitor stock levels, add, update, and remove pantry items.
+-Receive Low-Stock Alerts: Notifications for items running low in the pantry.
+-Optimize Shopping Recommendations: Purchase suggestions based on frequently bought items.
+-Track Expiry Dates: Helps users avoid waste by tracking item expiration dates.
 
-## Technologies Used
+# Technologies Used
 
-Java with Spring Boot for REST API development.
-Maven for dependency management.
-JUnit & Mockito for unit testing.
-Git for version control.
+-Java with Spring Boot for REST API development.
+-Maven for dependency management.
+-JUnit & Mockito for unit testing.
+-Git for version control.
 
-## Setup Instructions
+# Setup Instructions
 
 # Prerequisites
 
 Ensure you have the following installed:
-Java 17 or higher
-Maven 3.6+
-Git
+-Java 17 or higher
+-Maven 3.6+
+-Git
 
-## Installation
+# Installation
 
-# Clone the repository:
-git clone https://github.com/your-repo/smart-grocery-list.git
+-Clone the repository:
+ git clone https://github.com/your-repo/smart-grocery-list.git
 
-# Navigate into the project directory:
-cd smart-grocery-list
+-Navigate into the project directory:
+ cd smart-grocery-list
 
-# Build the project using Maven:
-mvn clean install
+-Build the project using Maven:
+ mvn clean install
 
-# Run the application:
-mvn spring-boot:run
+-Run the application:
+ mvn spring-boot:run
 
 ## API Endpoints
 
-### Grocery List APIs
+#Grocery List APIs
 
-# Create a grocery list:
+-Create a grocery list:
 POST /grocery-lists
 
-# Get a grocery list:
+-Get a grocery list:
 GET /grocery-lists/{listId}
 
-### Pantry Management APIs
+#Pantry Management APIs
 
-# Add pantry item:
+-Add pantry item:
 POST /pantry-items
 
-# Get pantry items:
+-Get pantry items:
 GET /pantry-items/{userId}
 
-### Alerts & Recommendations
+# Alerts & Recommendations
 
-# Get pantry alerts:
+-Get pantry alerts:
 GET /pantry-alerts/{userId}
 
-# Get shopping recommendations:
+-Get shopping recommendations:
 GET /recommendations/{userId}
 
 ## Contribution Guidelines
 
-Use feature branches (e.g., feature/user-management).
-Submit pull requests for code review.
-Write unit tests for new functionality.
-Keep code well-documented.
+-Use feature branches (e.g., feature/user-management).
+-Submit pull requests for code review.
+-Write unit tests for new functionality.
+-Keep code well-documented.
 
-## Testing
+# Testing
 
 # Run unit tests with:
 mvn test
 
-## License
+# License
 
-# This project is licensed under the MIT License.
+This project is licensed under the MIT License.
 
 
 
