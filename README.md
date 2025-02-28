@@ -4,11 +4,16 @@
 Smart Grocery List & Pantry Manager is an advanced REST API designed to simplify grocery shopping and pantry inventory management.
 
 ## Features
--Create and Manage Grocery Lists: Users can create, edit, and delete grocery lists.
--Track Pantry Stock: Monitor stock levels, add, update, and remove pantry items.
--Receive Low-Stock Alerts: Notifications for items running low in the pantry.
--Optimize Shopping Recommendations: Purchase suggestions based on frequently bought items.
--Track Expiry Dates: Helps users avoid waste by tracking item expiration dates.
+
+- **Create and Manage Grocery Lists**: Users can create, edit, and delete grocery lists.
+
+- **Track Pantry Stock**: Monitor stock levels, add, update, and remove pantry items.
+
+- **Receive Low-Stock Alerts**: Notifications for items running low in the pantry.
+
+- **Optimize Shopping Recommendations**: Purchase suggestions based on frequently bought items.
+
+- **Track Expiry Dates**: Helps users avoid waste by tracking item expiration dates.
 
 ## Technologies Used
 -Java with Spring Boot for REST API development.
