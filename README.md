@@ -42,7 +42,10 @@ Ensure you have the following installed:
    ```sh
    cd smart-grocery-list
  
- mvn clean install
+ 3. Build the project using Maven:
+   ```sh
+   mvn clean install
+
 
  Run the application:
  mvn spring-boot:run
