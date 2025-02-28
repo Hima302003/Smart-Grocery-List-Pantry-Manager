@@ -16,13 +16,13 @@ Smart Grocery List & Pantry Manager is an advanced REST API designed to simplify
 - **Track Expiry Dates**: Helps users avoid waste by tracking item expiration dates.
 
 ## Technologies Used
--Java with Spring Boot for REST API development.
--Maven for dependency management.
--JUnit & Mockito for unit testing.
--Git for version control.
+
+- **Java with Spring Boot** for REST API development.
+- **Maven** for dependency management.
+- **JUnit & Mockito** for unit testing.
+- **Git** for version control.
 
 # Setup Instructions
-
 ## Prerequisites
 Ensure you have the following installed:
 - Java 17 or higher
