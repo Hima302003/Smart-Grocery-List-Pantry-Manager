@@ -38,11 +38,15 @@ Ensure you have the following installed:
    ```sh
    git clone https://github.com/your-repo/smart-grocery-list.git
 
--Navigate into the project directory:
- cd smart-grocery-list
--Build the project using Maven:
+2. Navigate into the project directory:  
+  ```sh
+  cd smart-grocery-list
+
+3. Build the project using Maven:
+   ```sh
  mvn clean install
--Run the application:
+4. Run the application:
+   ```sh
  mvn spring-boot:run
 
 ## API Endpoints
