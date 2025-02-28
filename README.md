@@ -1,4 +1,4 @@
-# Smart Grocery List & Pantry Manager
+## Smart Grocery List & Pantry Manager
 
 # Overview
 
