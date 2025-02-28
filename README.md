@@ -47,8 +47,10 @@ Ensure you have the following installed:
    mvn clean install
 
 4. Run the application:  
+   
    ```sh
    mvn spring-boot:run
+
 
 
 
